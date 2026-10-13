@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#090812"><meta name="description" content="CINE TV: películas, series y anime."><title>CINE TV — La magia empieza aquí</title>
+<style>
+:root{--bg:#090812;--gold:#f5cf78;--pink:#f28bbd;--muted:#b8b4c8;--white:#fffaf4}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 10% 0%,#48245d55,transparent 38%),radial-gradient(ellipse at 95% 25%,#a05b3a22,transparent 35%),#090812;color:var(--white);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.55}.wrap{width:min(1120px,92%);margin:auto}a{color:inherit;text-decoration:none}nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0;gap:18px}.brand{display:flex;align-items:center;gap:11px;font-weight:900;letter-spacing:2px}.logo{width:43px;height:43px;border-radius:14px;display:grid;place-items:center;background:linear-gradient(135deg,var(--gold),#bb7b42);color:#17101c;font-size:21px}.navlinks{display:flex;gap:22px;color:#ded9e8;font-size:14px}.navlinks a:hover{color:var(--gold)}.pill{display:inline-flex;border:1px solid #ffffff22;border-radius:999px;padding:8px 13px;color:#f6dca0;font-size:12px;letter-spacing:1px;text-transform:uppercase;background:#ffffff08}.hero{padding:58px 0 45px;display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:center}h1{font-size:clamp(42px,7vw,78px);line-height:.99;letter-spacing:-3px;margin:20px 0}h1 em{font-style:normal;background:linear-gradient(100deg,#fff5cf,var(--gold),var(--pink));background-clip:text;-webkit-background-clip:text;color:transparent}.lead{color:var(--muted);font-size:17px;max-width:570px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{padding:13px 19px;border-radius:13px;font-weight:800;font-size:14px;display:inline-flex;align-items:center;justify-content:center;gap:9px;transition:.2s}.btn:hover{transform:translateY(-2px)}.primary{background:linear-gradient(110deg,var(--gold),#f6a6c9);color:#1a1120}.secondary{border:1px solid #ffffff26;background:#ffffff08}.poster-wall{position:relative;min-height:360px;display:grid;place-items:center}.glow{position:absolute;width:300px;height:300px;background:#b34e9c35;filter:blur(65px);border-radius:50%}.poster{position:absolute;width:175px;height:265px;border:1px solid #ffffff32;border-radius:20px;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;padding:18px;box-shadow:0 24px 70px #0009}.poster:before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent,#090812e8)}.poster b,.poster small{position:relative}.poster b{font-size:23px;line-height:1.02}.poster small{color:#f7dfe9;margin-top:8px}.p1{transform:translate(-88px,-2px) rotate(-11deg);background:linear-gradient(155deg,#c4e4f4,#375b96 45%,#151328)}.p2{z-index:2;transform:translate(0,-22px);background:linear-gradient(155deg,#ffda85,#e77b8e 43%,#3b205a)}.p3{transform:translate(88px,10px) rotate(11deg);background:linear-gradient(155deg,#7de0cb,#387d83 45%,#121e36)}.floating{position:absolute;z-index:3;right:0;bottom:8px;padding:13px 16px;background:#171321ee;border:1px solid #ffffff24;border-radius:15px;font-size:13px;color:#ded8e8}.floating strong{display:block;color:var(--gold);font-size:16px}.section{padding:35px 0 50px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:18px;margin-bottom:22px}.eyebrow{color:var(--gold);font-size:12px;text-transform:uppercase;letter-spacing:2px;font-weight:800}h2{font-size:clamp(28px,4vw,42px);line-height:1.1;margin:8px 0 0;letter-spacing:-1px}.sub{color:var(--muted);max-width:500px;margin:0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{position:relative;overflow:hidden;border-radius:20px;padding:23px;min-height:220px;background:linear-gradient(145deg,#1b1729,#11101b);border:1px solid #ffffff12;transition:.25s}.card:hover{transform:translateY(-5px);border-color:#f5cf7855}.symbol{font-size:35px;margin-bottom:22px;display:block}.card h3{margin:0 0 8px;font-size:22px}.card p{margin:0;color:var(--muted);font-size:14px}.number{position:absolute;right:18px;top:13px;font-size:38px;font-weight:900;color:#ffffff09}.feature{margin-top:20px;border:1px solid #f5cf7830;border-radius:22px;padding:25px;background:linear-gradient(110deg,#f5cf7814,#f28bbd0c);display:flex;justify-content:space-between;align-items:center;gap:20px}.feature p{color:var(--muted);margin:7px 0 0}footer{border-top:1px solid #ffffff12;padding:28px 0 38px;color:#a9a3b9;font-size:12px}.foot{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap}footer strong{color:#eee2c8}@media(max-width:760px){.navlinks{display:none}.hero{grid-template-columns:1fr;padding-top:38px;gap:8px}.poster-wall{min-height:320px;transform:scale(.9)}.grid{grid-template-columns:1fr}.card{min-height:180px}.section-head{align-items:start;flex-direction:column}.feature{align-items:start;flex-direction:column}h1{letter-spacing:-2px}}
+
+/* Catálogo conectado a CINE TV */
+.catalog-tools{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0 22px}
+.catalog-tools input,.catalog-tools select{background:#171321;color:var(--white);border:1px solid #ffffff2b;border-radius:12px;padding:12px 14px;font:inherit;min-width:0}
+.catalog-tools input{flex:1;min-width:190px}
+.catalog-tools button{cursor:pointer;border:0}
+.catalog-status{color:var(--muted);font-size:14px;margin:10px 0 18px}
+.media-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:15px}
+.media-card{overflow:hidden;border:1px solid #ffffff18;border-radius:16px;background:#14111f;min-width:0;transition:transform .2s,border-color .2s}
+.media-card:hover{transform:translateY(-4px);border-color:#f5cf7866}
+.media-card img{display:block;width:100%;aspect-ratio:2/3;object-fit:cover;background:#211b2b}
+.media-info{padding:12px}
+.media-info h3{font-size:14px;line-height:1.3;margin:0 0 7px}
+.media-info p{font-size:12px;color:var(--muted);margin:0}
+.catalog-row{margin-top:28px}
+.catalog-row h3{font-size:22px;margin:0 0 14px}
+@media(max-width:900px){.media-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:520px){.media-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.media-info{padding:10px}.media-info h3{font-size:13px}}
+
+</style></head><body>
+<header class="wrap"><nav><a class="brand" href="#inicio"><span class="logo">▶</span><span>CINE <span style="color:var(--gold)">TV</span></span></a><div class="navlinks"><a href="#catalogo">Catálogo</a><a href="#experiencia">Experiencia</a><a href="#proyecto">El proyecto</a></div><a class="pill" href="#catalogo">✦ Explorar</a></nav></header>
+<main><section class="hero wrap" id="inicio"><div><span class="pill">✦ Tu próxima historia te espera</span><h1>El cine se vive.<br><em>La magia empieza aquí.</em></h1><p class="lead">Un espacio pensado para quienes aman las grandes historias: películas que emocionan, series que atrapan y anime que abre nuevos mundos.</p><div class="actions"><a class="btn primary" href="#catalogo">Ver catálogo ↗</a><a class="btn secondary" href="#proyecto">Conocer CINE TV</a></div></div><div class="poster-wall" aria-label="Carteles decorativos de cine"><div class="glow"></div><div class="poster p1"><b>OTROS<br>MUNDOS</b><small>Una aventura comienza</small></div><div class="poster p2"><b>LA GRAN<br>HISTORIA</b><small>Emoción en cada escena</small></div><div class="poster p3"><b>FUTURO<br>INFINITO</b><small>Más allá de lo imaginable</small></div><div class="floating"><strong>Tu siguiente favorita</strong>está por descubrirse ✨</div></div></section>
+<section class="section wrap" id="colecciones"><div class="section-head"><div><div class="eyebrow">Elige tu universo</div><h2>¿Qué quieres ver hoy?</h2></div><p class="sub">Tres formas de escapar de la rutina. Una experiencia diseñada para disfrutar desde el móvil.</p></div><div class="grid"><article class="card"><span class="number">01</span><span class="symbol">🎬</span><h3>Películas</h3><p>Desde aventuras épicas hasta historias íntimas que se quedan contigo mucho después de los créditos.</p></article><article class="card"><span class="number">02</span><span class="symbol">🍿</span><h3>Series</h3><p>Encuentra nuevas historias, personajes inolvidables y mundos a los que siempre querrás regresar.</p></article><article class="card"><span class="number">03</span><span class="symbol">🌌</span><h3>Anime</h3><p>Acción, fantasía, emoción y universos animados para explorar episodio a episodio.</p></article></div></section>
+<section class="section wrap" id="experiencia"><div class="feature"><div><div class="eyebrow">Diseñado para ti</div><h2>Una experiencia cómoda, visual y sencilla.</h2><p>Interfaz adaptable a pantallas pequeñas, colecciones claras y espacio para ampliar el proyecto poco a poco.</p></div><a class="btn primary" href="#proyecto">Ver el proyecto ↓</a></div></section>
+
+<section class="section wrap" id="catalogo">
+  <div class="section-head">
+    <div><div class="eyebrow">Catálogo en vivo</div><h2>Descubre qué ver</h2></div>
+    <p class="sub">Películas y series populares cargadas desde TMDB a través del backend de CINE TV.</p>
+  </div>
+  <div class="catalog-tools">
+    <input id="searchInput" type="search" placeholder="Buscar películas o series..." aria-label="Buscar películas o series">
+    <select id="searchType" aria-label="Tipo de contenido"><option value="movie">Películas</option><option value="tv">Series</option></select>
+    <button class="btn primary" id="searchButton" type="button">Buscar</button>
+  </div>
+  <p class="catalog-status" id="catalogStatus" role="status">Cargando catálogo...</p>
+  <div class="catalog-row"><h3 id="catalogHeading">Películas populares</h3><div class="media-grid" id="mediaGrid"></div></div>
+</section>
+
+<section class="section wrap" id="proyecto"><div class="section-head"><div><div class="eyebrow">Detrás de la pantalla</div><h2>Un proyecto que va creciendo.</h2></div></div><p class="lead">CINE TV es un proyecto independiente en desarrollo. Esta página presenta su identidad visual y sus secciones; el catálogo y la reproducción se incorporarán más adelante mediante fuentes autorizadas.</p><div class="actions"><a class="btn secondary" href="#inicio">↑ Volver arriba</a></div></section></main>
+<footer><div class="wrap foot"><div><strong>CINE TV</strong> · El cine se vive.</div><div>Proyecto independiente. Las marcas de terceros pertenecen a sus propietarios.</div><div>© 2026 CINE TV</div></div></footer>
+<script>
+(function(){
+  const API_BASE = "https://cine-tv-backend.onrender.com";
+  const grid = document.getElementById("mediaGrid");
+  const status = document.getElementById("catalogStatus");
+  const heading = document.getElementById("catalogHeading");
+  const searchInput = document.getElementById("searchInput");
+  const searchType = document.getElementById("searchType");
+  const searchButton = document.getElementById("searchButton");
+
+  function escapeHTML(value){
+    return String(value || "").replace(/[&<>"']/g, function(ch){
+      return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch];
+    });
+  }
+  function posterURL(path){return path ? "https://image.tmdb.org/t/p/w500" + path : "";}
+  function render(items, type){
+    grid.innerHTML = "";
+    if(!items || !items.length){status.textContent="No se encontraron resultados. Prueba otra búsqueda.";return;}
+    items.forEach(function(item){
+      const title=item.title || item.name || "Sin título";
+      const date=item.release_date || item.first_air_date || "";
+      const year=date ? date.slice(0,4) : "Año no disponible";
+      const image=posterURL(item.poster_path);
+      const article=document.createElement("article"); article.className="media-card";
+      const imageHTML=image ? '<img loading="lazy" src="'+image+'" alt="Cartel de '+escapeHTML(title)+'">' : '<div style="aspect-ratio:2/3;display:grid;place-items:center;color:#b8b4c8;padding:16px;text-align:center">Cartel no disponible</div>';
+      article.innerHTML=imageHTML+'<div class="media-info"><h3>'+escapeHTML(title)+'</h3><p>'+escapeHTML(year)+'</p></div>';
+      grid.appendChild(article);
+    });
+    status.textContent="Se muestran "+items.length+" resultados.";
+    heading.textContent=type === "tv" ? "Series" : "Películas";
+  }
+  async function loadPopular(type){
+    status.textContent="Cargando "+(type === "tv" ? "series" : "películas")+"..."; grid.innerHTML="";
+    try{
+      const response=await fetch(API_BASE+"/api/popular?type="+encodeURIComponent(type));
+      if(!response.ok) throw new Error("HTTP "+response.status);
+      const data=await response.json(); render(data.results || [],type);
+    }catch(error){status.textContent="No se pudo cargar el catálogo. Comprueba que el backend de Render esté activo e inténtalo de nuevo.";console.error("CINE TV:",error);}
+  }
+  async function search(){
+    const query=searchInput.value.trim(), type=searchType.value;
+    if(!query){loadPopular(type);return;}
+    status.textContent="Buscando..."; grid.innerHTML="";
+    heading.textContent=type === "tv" ? "Resultados de series" : "Resultados de películas";
+    try{
+      const response=await fetch(API_BASE+"/api/search?type="+encodeURIComponent(type)+"&q="+encodeURIComponent(query));
+      if(!response.ok) throw new Error("HTTP "+response.status);
+      const data=await response.json(); render(data.results || [],type);
+      heading.textContent=type === "tv" ? "Resultados de series" : "Resultados de películas";
+    }catch(error){status.textContent="No se pudo realizar la búsqueda. Inténtalo de nuevo.";console.error("CINE TV búsqueda:",error);}
+  }
+  searchButton.addEventListener("click",search);
+  searchInput.addEventListener("keydown",function(event){if(event.key === "Enter") search();});
+  searchType.addEventListener("change",function(){if(searchInput.value.trim()) search(); else loadPopular(searchType.value);});
+  loadPopular("movie");
+})();
+</script>
+
+</body></html>
